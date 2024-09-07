@@ -44,7 +44,7 @@ new Chart(ctx, { //create new chart
         },
         animation: {
             duration: 1000,
-            easing: 'easeInOutQua'
+            easing: 'easeInOutQuad'
         }
     }
 })
