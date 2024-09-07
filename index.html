@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexDash</title>
+    <link rel="icon" href="./assets/favicon.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -14,7 +15,7 @@
         <!-- ----------Nav-Bar---------- -->
         <div class="nav">
             <div class="logo">
-                <i class='bx bxs-tree'></i>
+                <i class='bx bxs-bar-chart-square'></i>
                 <a href="#">NexDash</a>
             </div>
             <div class="nav-links">
@@ -67,7 +68,7 @@
                             <p>- 5 lesson left</p>
                             <p>- 3 project left</p>
                         </div>
-                        <i class='bx bx-mongodb'></i>
+                        <i class='bx bxl-mongodb'></i>
                     </div>
                     <div class="progress">
                         <div class="bar"></div>
@@ -80,7 +81,7 @@
                             <p>- 8 lesson left</p>
                             <p>- 4 project left</p>
                         </div>
-                        <i class='bx bx-nodejs'></i>
+                        <i class='bx bxl-nodejs'></i>
                     </div>
                     <div class="progress">
                         <div class="bar"></div>
@@ -93,7 +94,58 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <div class="bottom-container">
+        <!-- ----------Progress-Status---------- -->
+        <div class="prog-status">
+            <div class="header">
+                <h4>Learning Progress</h4>
+                <div class="tabs">
+                    <a href="#" class="active">1Y</a>
+                    <a href="#">6M</a>
+                    <a href="#">3M</a>
+                </div>
+            </div>
+            <div class="details">
+                <div class="item">
+                    <h2>3.45</h2>
+                    <p>Current GPA</p>
+                </div>
+                <div class="separator"></div>
+                <div class="item">
+                    <h2>4.78</h2>
+                    <p>Class Average GPA</p>
+                </div>
+            </div>
+            <canvas class="prog-chart"></canvas>
+        </div>
+        <!-- ----------Popular-section---------- -->
+        <div class="popular">
+            <div class="header">
+                <h4>Popular</h4>
+                <a href="#"># Web Development</a>
+            </div>
+                <img src="./assets/podcast.png">
+                <div class="audio">
+                    <i class='bx bx-podcast' ></i>
+                    <a href="#">Podcast: WebDev Bytes</a>
+                </div>
+                <p>Quick tips and insights for mastering modern web development.</p>
+                <div class="listen">
+                    <div class="author">
+                        <img src="./assets/IMG_8168.JPG">
+                        <div>
+                            <a href="#">HaBizz Studios</a>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                    <button>Listen<i class='bx bx-right-arrow-alt' ></i></button>
+                </div>
+        </div>
+        <!-- ----------Upcoming-Section---------- -->
+        <div class="upcoming"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./script.js"></script>
 </body>
 
