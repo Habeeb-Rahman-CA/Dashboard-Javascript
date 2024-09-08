@@ -80,6 +80,12 @@ body {
     padding: 12px;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav .right-section>i:hover{
+    color: #1e293b;
+    background-color: #f1f3f2;
 }
 
 .right-section .profile {
@@ -98,6 +104,7 @@ body {
 }
 
 .info img {
+    margin-left: -12px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -111,12 +118,6 @@ body {
 .profile .info p {
     font-size: 13px;
     color: #ccc;
-}
-
-.profile>i {
-    color: #f1f3f2;
-    font-size: 22px;
-    cursor: pointer;
 }
 
 .top-container .status {
@@ -286,6 +287,10 @@ body {
     background-color: #ffffff;
 }
 
+.prog-status .header .tabs a:hover{
+    background: #ffffff;
+}
+
 .prog-status .details{
     display: flex;
     margin-bottom: 30px;
@@ -325,6 +330,10 @@ body {
     padding: 4px 8px;
     background-color: #f3f3f3;
     border-radius: 20px;
+}
+
+.bottom-container .popular .header a:hover{
+    color: #0070cb;
 }
 
 .bottom-container .popular > img{
@@ -397,11 +406,19 @@ body {
     color: #ffffff;
     background-color: #031224;
     padding: 6px 14px;
+    border: 1px solid #031224;
     border-radius: 10px;
     display: flex;
     align-items: center;
     gap: 6px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.listen button:hover{
+    background-color: #ffffff;
+    color: #031224;
+    border: 1px solid #031224;
 }
 
 .bottom-container .upcoming{
