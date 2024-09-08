@@ -15,6 +15,7 @@ new Chart(ctx, { //create new chart
             hoverBackground: '#60a5fa'
         }]
     },
+    
     options: {
         responsive: true,
         maintainAspectRatio: false, //aspect ratio of the chart is not fixed so it allows to stretch based on the container
