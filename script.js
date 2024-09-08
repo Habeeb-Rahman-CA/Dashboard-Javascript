@@ -1,4 +1,4 @@
-AOS.init();
+AOS.init(); //Animation on scroll
 
 const ctx = document.querySelector('.activity-chart')
 const ctx2 = document.querySelector('.prog-chart')
