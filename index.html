@@ -8,12 +8,13 @@
     <link rel="icon" href="./assets/favicon.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="top-container">
         <!-- ----------Nav-Bar---------- -->
-        <div class="nav">
+        <div class="nav" data-aos="fade-down" data-aos-duration="3000">
             <div class="logo">
                 <i class='bx bxs-bar-chart-square'></i>
                 <a href="#">NexDash</a>
@@ -41,7 +42,7 @@
         </div>
 
         <!-- ----------Status---------- -->
-        <div class="status">
+        <div class="status" data-aos="fade-down" data-aos-duration="1000">
             <div class="header">
                 <h4 id="big">Your Course</h4>
                 <h4 id="small">Weekly Activity</h4>
@@ -222,6 +223,7 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./script.js"></script>
 </body>
